@@ -114,7 +114,10 @@ javaでは参照渡しは存在しなくて、正確には参照値の値渡し�
 
 ### 参照の値渡しとは
 
+PassByValueOrReferenceToFunctionパッケージ配下の記述を参考。
 
+もし、本当に参照渡しだとしたら、`PassByReferenceValueToFunction`では、
+mainメソッド内で出力しているlistも書き換わってないとおかしい。
 
 ## 参考
 
